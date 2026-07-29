@@ -57,16 +57,16 @@
       "label": "Excluded steps"
     },
     "glyph": {
-      "description": "The glyph shown for the topgrade widget on the bar.",
-      "label": "Bar glyph"
+      "description": "Значек отображаемый для виджета topgrade на панели инструментов.",
+      "label": "Значек на панели"
     },
     "keep_terminal_open": {
-      "description": "Pass --keep so the terminal window waits for a key press instead of closing when the run ends.",
-      "label": "Keep the terminal open"
+      "description": "Передать --keep, чтобы окно терминала ожидало нажатия клавиши, а не закрывалось по окончании выполнения.",
+      "label": "Держите терминал открытым"
     },
     "notify_on_updates": {
-      "description": "Send a desktop notification when a check finds packages to upgrade.",
-      "label": "Notify when updates are found"
+      "description": "Отправляйте уведомление на рабочий стол, когда проверка обнаружит пакеты для обновления.",
+      "label": "Уведомлять о появлении обновлений"
     },
     "show_count": {
       "description": "Show the number of pending updates next to the bar glyph.",
