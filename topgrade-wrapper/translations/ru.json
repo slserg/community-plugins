@@ -85,8 +85,8 @@
       "label": "Терминал"
     },
     "topgrade_config": {
-      "description": "Alternative topgrade configuration file, passed as --config. Empty (default) lets topgrade find its own, which is what the update count reflects.",
-      "label": "topgrade configuration"
+      "description": "Альтернативный файл конфигурации topgrade, передаёт как --config. Пусто (по умолчанию) topgrade использует свой собственный, который и отражает количество обновлений.",
+      "label": "Конфигурация topgrade"
     }
   },
   "status_checking": "Проверка наличия обновлений…",
