@@ -57,7 +57,7 @@
       "label": "Excluded steps"
     },
     "glyph": {
-      "description": "Значек отображаемый для виджета topgrade на панели инструментов.",
+      "description": "Значек отображаемый для виджета topgrade на панели.",
       "label": "Значек на панели"
     },
     "keep_terminal_open": {
@@ -69,12 +69,12 @@
       "label": "Уведомлять о появлении обновлений"
     },
     "show_count": {
-      "description": "Show the number of pending updates next to the bar glyph.",
-      "label": "Show the update count"
+      "description": "Показывает количество ожидающих обновлений рядом со значком на панели.",
+      "label": "Показать количество обновлений"
     },
     "show_versions": {
-      "description": "Show `installed → available` beside each package when a manager row is expanded. Off lists names only; hovering a package still shows its full versions under the list either way.",
-      "label": "Show package versions"
+      "description": "При раскрытии строки менеджера рядом с каждым пакетом отображается 'установлено → доступно для обновления'. При выключенном состоянии отображаются только названия; при наведении курсора мыши на пакет все равно отображаются его полные версии в списке в любом случае.",
+      "label": "Показать версии пакета"
     },
     "sudo_loop": {
       "description": "Pass --sudoloop so topgrade refreshes the sudo timestamp and asks for your password once. Leaves a sudo session open for the whole run.",
