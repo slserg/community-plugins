@@ -37,12 +37,12 @@
   },
   "settings": {
     "assume_yes": {
-      "description": "Pass --yes so package managers do not ask for confirmation. Off means you confirm each one in the terminal window.",
-      "label": "Answer yes automatically"
+      "description": "Передать --yes, чтобы менеджеры пакетов не запрашивали подтверждение. Выключено - это означает, что вы подтверждаете каждое из них в окне терминала.",
+      "label": "Автоматическое подтверждение"
     },
     "auto_check_hours": {
-      "description": "Check for updates automatically every N hours. 0 (default) never checks on its own — nothing runs until you ask for it.",
-      "label": "Auto-check interval (hours)"
+      "description": "Автоматически проверяйте наличие обновлений каждые N часов. Значение 0 (по умолчанию) никогда не проверяется само по себе — ничего не запускается, пока вы об этом не попросите.",
+      "label": "Интервал проверки (часы)"
     },
     "exclude_mode": {
       "description": "Where skipped steps come from. 'topgrade configuration' uses only the disable list in your topgrade.toml. 'Override with the list below' also passes the steps you list as --disable; note that --disable can only add exclusions, never re-enable a step your topgrade.toml already disables.",
