@@ -1,13 +1,13 @@
 {
-  "action_check": "Check Updates",
-  "action_dismiss": "Dismiss",
-  "action_update": "Update",
-  "caption_checked": "checked {time}",
-  "caption_config": "config {path}",
+  "action_check": "Проверить",
+  "action_dismiss": "Отменить",
+  "action_update": "Обновить",
+  "caption_checked": "Проверено в {time}",
+  "caption_config": "Конфигурация {path}",
   "caption_config_default": "topgrade defaults",
   "caption_excluded": {
-    "one": "1 step excluded",
-    "other": "{count} steps excluded"
+    "one": "1 этап исключен",
+    "other": "{count} этапов исключено"
   },
   "count": {
     "apt": "APT",
@@ -89,28 +89,28 @@
       "label": "topgrade configuration"
     }
   },
-  "status_checking": "Checking for updates…",
-  "status_checking_step": "Checking {step}…",
-  "status_clean": "Everything is up to date",
-  "status_error": "Update check failed",
-  "status_idle": "Not checked yet",
-  "status_missing": "topgrade is not installed",
+  "status_checking": "Проверка наличия обновлений…",
+  "status_checking_step": "Проверка {step}…",
+  "status_clean": "Все в актуальном состоянии",
+  "status_error": "Проверка обновления не удалась",
+  "status_idle": "Пока не проверено",
+  "status_missing": "topgrade не установлен",
   "status_ready": {
-    "one": "1 package to upgrade",
-    "other": "{count} packages to upgrade"
+    "one": "1 пакет для обновления",
+    "other": "{count} пакетов для обновления"
   },
-  "status_running": "topgrade is running in a terminal…",
-  "step_planning": "topgrade steps",
+  "status_running": "topgrade запущен в терминале…",
+  "step_planning": "Этапы topgrade",
   "step_unnamed": "topgrade",
-  "tip_check": "Check for updates now",
-  "tip_settings": "Plugin settings",
-  "tip_close": "Close",
-  "tip_update": "Run topgrade in a terminal window",
+  "tip_check": "Проверить сейчас",
+  "tip_settings": "Настройки плагина",
+  "tip_close": "Закрыть",
+  "tip_update": "Запустить topgrade в терминале",
   "title": "Topgrade Wrapper",
-  "tooltip_checked": "Checked",
-  "tooltip_hints": "click: panel · right: check now",
-  "tooltip_pending": "Pending",
-  "tooltip_status": "Status",
-  "uncounted": "Not counted: {steps}",
-  "up_to_date": "Up to date: {steps}"
+  "tooltip_checked": "Проверено в",
+  "tooltip_hints": "Клик: панель · правый: проверить",
+  "tooltip_pending": "В ожидании",
+  "tooltip_status": "Статус",
+  "uncounted": "Не считая: {steps}",
+  "up_to_date": "Обновлены: {steps}"
 }
