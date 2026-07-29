@@ -25,15 +25,15 @@
     "zypper": "Zypper"
   },
   "err_dry_failed": "topgrade не удалось перечислить шаги",
-  "err_dry_timeout": "Время истекло при создании списка шагов topgrade",
-  "err_no_terminal": "No terminal emulator found — set one in the plugin settings",
-  "err_no_topgrade": "topgrade not found — install it and check your PATH",
-  "err_spawn": "Could not run topgrade",
-  "hover_hint": "Hover a package for its full versions",
-  "more_packages": "+{count} more",
+  "err_dry_timeout": "Время истекло при перечислении шагов topgrade",
+  "err_no_terminal": "Не найден эмулятор терминала — установите его в настройках плагина",
+  "err_no_topgrade": "topgrade не найден — установите и проверьте путь к нему",
+  "err_spawn": "Не может запустить topgrade",
+  "hover_hint": "Наведите курсор на пакет, чтобы увидеть его полные версии",
+  "more_packages": "+{count} ещё",
   "notify_updates": {
-    "one": "1 package to upgrade",
-    "other": "{count} packages to upgrade"
+    "one": "1 пакет для обновления",
+    "other": "{count} пакетов для обновления"
   },
   "settings": {
     "assume_yes": {
