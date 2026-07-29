@@ -77,12 +77,12 @@
       "label": "Показать версии пакета"
     },
     "sudo_loop": {
-      "description": "Pass --sudoloop so topgrade refreshes the sudo timestamp and asks for your password once. Leaves a sudo session open for the whole run.",
-      "label": "Keep sudo alive"
+      "description": "Передать --sudoloop, чтобы topgrade обновил тайм-аут sudo и запросил ваш пароль один раз. Оставляет сеанс sudo открытым на весь период выполнения.",
+      "label": "Сохраняйте сессию sudo"
     },
     "terminal": {
-      "description": "Terminal command used for the update run, e.g. kitty or ghostty. Empty (default) uses Noctalia's terminal detection ($TERMINAL, then the common emulators).",
-      "label": "Terminal"
+      "description": "Терминал используемый для запуска обновления, например: kitty или ghostty. Пусто (по умолчанию) использует найденный Noctalia терминал ($TERMINAL, затем обычные эмуляторы).",
+      "label": "Терминал"
     },
     "topgrade_config": {
       "description": "Alternative topgrade configuration file, passed as --config. Empty (default) lets topgrade find its own, which is what the update count reflects.",
