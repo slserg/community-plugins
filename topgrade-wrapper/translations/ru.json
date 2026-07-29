@@ -4,10 +4,10 @@
   "action_update": "Обновить",
   "caption_checked": "Проверено в {time}",
   "caption_config": "Конфигурация {path}",
-  "caption_config_default": "topgrade defaults",
+  "caption_config_default": "topgrade значения по умолчанию",
   "caption_excluded": {
-    "one": "1 этап исключен",
-    "other": "{count} этапов исключено"
+    "one": "1 шаг исключен",
+    "other": "{count} шагов исключено"
   },
   "count": {
     "apt": "APT",
@@ -24,8 +24,8 @@
     "snap": "Snap",
     "zypper": "Zypper"
   },
-  "err_dry_failed": "topgrade could not list its steps",
-  "err_dry_timeout": "Timed out while listing the topgrade steps",
+  "err_dry_failed": "topgrade не удалось перечислить шаги",
+  "err_dry_timeout": "Время истекло при создании списка шагов topgrade",
   "err_no_terminal": "No terminal emulator found — set one in the plugin settings",
   "err_no_topgrade": "topgrade not found — install it and check your PATH",
   "err_spawn": "Could not run topgrade",
@@ -100,7 +100,7 @@
     "other": "{count} пакетов для обновления"
   },
   "status_running": "topgrade запущен в терминале…",
-  "step_planning": "Этапы topgrade",
+  "step_planning": "шагов topgrade",
   "step_unnamed": "topgrade",
   "tip_check": "Проверить сейчас",
   "tip_settings": "Настройки плагина",
